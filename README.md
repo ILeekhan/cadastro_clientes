@@ -33,9 +33,13 @@ Projeto desenvolvido no 1º semestre do curso de **Análise e Desenvolvimento de
 
 cadastro_clientes/
 ├── main.py # Código principal do sistema
+
 ├── README.md # Arquivo de apresentação e documentação
+
 └── database/
+
 └── cadastro.db # Banco de dados (criado automaticamente)
+
 
 ---
 
