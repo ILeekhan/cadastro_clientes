@@ -1,47 +1,46 @@
-# 📋 Sistema de Cadastro de Clientes
-
-Projeto desenvolvido no 1º semestre do curso de **Análise e Desenvolvimento de Sistemas**, com o objetivo de praticar lógica de programação, Python e banco de dados SQL.
-
----
-
-## 🛠️ Tecnologias Utilizadas
-- **Python 3.14+** — Linguagem de programação
-- **SQLite** — Banco de dados relacional leve e sem necessidade de instalação de servidor
-
----
-
-## ✨ Funcionalidades
-✅ Cadastrar novos clientes  
-✅ Listar todos os clientes cadastrados  
-✅ Buscar clientes por nome  
-✅ Atualizar dados de um cliente  
-✅ Excluir um cliente  
-✅ Validação de e-mail duplicado
-
----
-
-## 🚀 Como executar o projeto
-1. Tenha o Python instalado na sua máquina
-2. Clone ou baixe a pasta do projeto
-3. Abra a pasta no VS Code
-4. Execute o arquivo `main.py`
-
----
-
-## 📂 Estrutura dos arquivos
+<div align="center">
 
 
+
+
+
+
+
+
+</div>
+🎯 Sobre o Projeto
+Prática de conceitos fundamentais: lógica de programação, manipulação de banco de dados relacional e boas práticas de validação de dados.
+✨ Funcionalidades
+Table
+Status	Descrição
+✅	Cadastrar novos clientes
+✅	Listar todos os clientes cadastrados
+✅	Buscar clientes por nome
+✅	Atualizar dados de um cliente
+✅	Excluir um cliente
+✅	Validação de e-mail duplicado
+📂 Estrutura de Arquivos
+plaintext
 cadastro_clientes/
-
-├── main.py # Código principal do sistema
-
-├── README.md # Arquivo de apresentação e documentação
-
+├── main.py                  # Código principal do sistema
+├── README.md                # Documentação do projeto
 └── database/
+    └── cadastro.db          # Banco de dados (criado automaticamente)
+🚀 Como Executar
+bash
+# 1. Verifique se tem o Python instalado
+python --version
 
-└── cadastro.db # Banco de dados (criado automaticamente)
+# 2. Acesse a pasta do projeto
+cd cadastro_clientes
 
-
----
-
-Feito por: **Francis Diel Fraga**
+# 3. Execute o sistema
+python main.py
+💡 Dica: Abra a pasta no VS Code para editar e acompanhar o código com mais facilidade.
+🛡️ Detalhes Técnicos
+Banco de Dados: SQLite — leve, sem servidor e arquivo único
+Validação: Verificação de e-mails já cadastrados antes de inserir
+Persistência: Os dados ficam salvos mesmo após fechar o programa
+<div align="center">
+Feito com 💙 Leekhan
+</div>
